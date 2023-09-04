@@ -16,5 +16,6 @@ steps:
    - 'gcr.io/jupyterhub-379311/trigger-test:$COMMIT_SHA'
    - '--region'
    - 'europe-north1'
+   - '--allow-unauthenticated'
 images:
  - 'gcr.io/jupyterhub-379311/trigger-test:$COMMIT_SHA'
